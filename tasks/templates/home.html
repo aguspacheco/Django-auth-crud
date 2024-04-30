@@ -1,0 +1,17 @@
+{% extends 'base.html' %} {% block content %}
+
+<main class="container">
+  <section class="card card-body">
+    <h1 class="display-1 text-center">Bienvenido a mi pagina realizada con Django</h1>
+    <p>
+      Bienvenido a mi pagina donde podras crearte un usuario para poder registrar diferentes tareas.
+    </p>
+
+    <div class="text-center">
+      <a class="btn btn-secondary" href="/signin"> Ingresar </a>
+      <a class="btn btn-dark" href="/signup"> Registrarse </a>
+    </div>
+  </section>
+</main>
+
+{% endblock %}
