@@ -89,7 +89,7 @@ def create_task(request):
         except ValueError:
             return render(request, 'create_task.html', {
                 'form': TaskForm,
-                'error': 'Por favor provee un dato valido'
+                'error': 'Por favor ingrese un dato valido'
         })
 
 @login_required
